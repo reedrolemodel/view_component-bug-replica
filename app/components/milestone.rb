@@ -1,4 +1,4 @@
-class Milestone::CardComponent < ViewComponent::Base
+class Milestone < ViewComponent::Base
   def initialize(title:)
     @title = title
   end
